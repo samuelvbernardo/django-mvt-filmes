@@ -60,7 +60,6 @@ django-mvt-filmes/
 
 ### Pré-requisitos
 - Python 3.8 ou superior instalado.
-- Virtualenv (opcional, mas recomendado).
 
 ### Passos
 
