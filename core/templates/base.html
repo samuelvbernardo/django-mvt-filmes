@@ -12,7 +12,7 @@
     <title>{% block titulo %} Filmes {% endblock %}</title>
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <!-- Header -->
     <header class="bg-dark text-white py-3 shadow">
         <div class="container text-center">
@@ -23,7 +23,7 @@
     </header>
 
     <!-- Main Content -->
-    <div class="container my-5">
+    <div class="container my-5 flex-grow-1">
         {% block conteudo %}  {% endblock conteudo %}
     </div>
 
