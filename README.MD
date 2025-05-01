@@ -45,13 +45,12 @@ django-mvt-filmes/
 │       ├── ...
 ├── static/
 │   ├── filmes/
-│       ├── assets/
-│       │   ├── fundo.jpeg         # Imagem de fundo
+│       ├── assets/                
+│       │   ├── fundo.jpeg         
+|       |   ├── favicon.ico          
 │       ├── css/
 │       │   ├── bootstrap.min.css  # Estilos do Bootstrap
-│       │   ├── style.css          # Estilos personalizados
-│       ├── icons/
-│       │   ├── favicon.ico        # Ícone do site
+│       │   ├── style.css          # Estilos personalizados           
 │       ├── js/
 │           ├── bootstrap.bundle.min.js
 ├── manage.py                      # Comando de gerenciamento do Django
