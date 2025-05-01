@@ -75,10 +75,21 @@ django-mvt-filmes/
    pip install -r requirements.txt
    ```
 
-3. **Realize as migrações do banco de dados**:
-   ```cmd
-   python manage.py migrate
-   ```
+3. **Escolha uma das opções abaixo para configurar o banco de dados**:
+
+   #### Opção 1: Importar os dados do JSON
+   - Certifique-se de que o arquivo JSON com os dados do banco está na raiz do projeto.
+   - Execute o seguinte comando para carregar os dados no banco:
+     ```cmd
+     python manage.py loaddata filmes.json
+     ```
+
+   #### Opção 2: Criar um banco de dados do zero
+   - Realize as migrações do banco de dados:
+     ```cmd
+     python manage.py migrate
+     ```
+   - Apague as imagens existentes na pasta `media/filmes/` para começar com um banco vazio.
 
 4. **Crie um superusuario (necessário para adicionar filmes)**:
    ```cmd
