@@ -89,8 +89,8 @@ django-mvt-filmes/
      python manage.py loaddata filmes.json
      ```
 
-   #### Opção 2: Criar um banco de dados do zero
-   - Apague as imagens existentes na pasta `media/filmes/` para começar com um banco vazio.
+   #### Opção 2: Banco de dados do zero
+   - Apague as imagens existentes na pasta `media/filmes/` e adicione novos filmes.
 
 5. **Crie um superusuário (necessário para adicionar filmes)**:
    ```cmd
